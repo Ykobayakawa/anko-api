@@ -1,0 +1,32 @@
+version: '2'
+
+services:
+  postgres:
+    image: postgres:9.6
+    environment:
+      POSTGRES_PASSWORD: anko1234
+      POSTGRES_USER: anko
+      POSTGRES_DB: anko_contents
+    volumes:
+      - ./postgres:/docker-entrypoint-initdb.d
+    expose:
+      - '5432'
+  app:
+    build: .
+    #command: ["scripts/wait-for-it.sh", "postgres:5432", "--", "scripts/development_start_ssl.sh"]
+    command: ["scripts/wait-for-it.sh", "postgres:5432", "--", "scripts/development_start_ssl.sh"]
+    environment:
+      RAILS_ENV: development
+      LANG: 'C.UTF-8'
+      WEBAPP_HOST: http://localhost:3001
+      API_ENDPOINT: https://local.anko.io:9292
+      ANKO_CONTENTS_DB_PASSWORD: anko1234
+    mem_limit: 838860800
+    ports:
+      - '9292:9292'
+    volumes:
+      - $PWD:/anko-api
+    depends_on:
+      - postgres
+    stdin_open: true
+    tty: true
