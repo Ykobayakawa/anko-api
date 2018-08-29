@@ -1824,3 +1824,1481 @@ Unpermitted parameter: :registration
 Completed 422 Unprocessable Entity in 62ms (Views: 0.2ms | ActiveRecord: 0.8ms)
 
 
+Started GET "/" for 172.27.0.1 at 2018-08-25 08:57:49 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (9.5ms)
+Completed 200 OK in 24ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started OPTIONS "/auth" for 172.27.0.1 at 2018-08-25 09:30:27 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/auth"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started OPTIONS "/auth" for 172.27.0.1 at 2018-08-25 09:30:54 +0000
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/auth"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 172.27.0.1 at 2018-08-25 09:38:17 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (5.8ms)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.27.0.1 at 2018-08-25 09:38:17 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (7.3ms)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.27.0.1 at 2018-08-25 09:38:19 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (6.5ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.27.0.1 at 2018-08-25 09:38:20 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (5.6ms)
+Completed 200 OK in 12ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/health" for 172.27.0.1 at 2018-08-25 09:46:15 +0000
+Processing by StaticResourcesController#health as HTML
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/health" for 172.27.0.1 at 2018-08-25 09:49:58 +0000
+Processing by StaticResourcesController#health as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/health" for 172.27.0.1 at 2018-08-25 09:50:03 +0000
+Processing by StaticResourcesController#health as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1734540662001077595)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(1734540662001077595)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/health" for 172.27.0.1 at 2018-08-25 09:50:37 +0000
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticResourcesController#health as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-25 10:07:09 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"tq45", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"agdt", "tel"=>"4362"}, "registration"=>{"user"=>{"email"=>"tq45", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"agdt", "tel"=>"4362"}}}
+Unpermitted parameters: :user, :registration
+Filter chain halted as :validate_sign_up_params rendered or redirected
+Completed 422 Unprocessable Entity in 514ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.27.0.1 at 2018-08-25 10:10:00 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (9.9ms)
+Completed 200 OK in 26ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-25 10:12:01 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"asfv", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"fafasb", "tel"=>"326"}, "registration"=>{"user"=>{"email"=>"asfv", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"fafasb", "tel"=>"326"}}}
+Unpermitted parameters: :user, :registration
+Filter chain halted as :validate_sign_up_params rendered or redirected
+Completed 422 Unprocessable Entity in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-25 10:12:46 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"jva89r", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"avsd", "tel"=>"ae98r"}, "registration"=>{"user"=>{"email"=>"jva89r", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"avsd", "tel"=>"ae98r"}}}
+Unpermitted parameters: :user, :registration
+Filter chain halted as :validate_sign_up_params rendered or redirected
+Completed 422 Unprocessable Entity in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-25 10:13:19 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"af4", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"adsf", "tel"=>"gvas"}, "registration"=>{"user"=>{"email"=>"af4", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"adsf", "tel"=>"gvas"}}}
+Unpermitted parameters: :user, :registration
+Filter chain halted as :validate_sign_up_params rendered or redirected
+Completed 422 Unprocessable Entity in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-25 10:17:00 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"ajg9", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"afargj", "tel"=>"gaj98r"}, "registration"=>{"user"=>{"email"=>"ajg9", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"afargj", "tel"=>"gaj98r"}}}
+Unpermitted parameters: :user, :registration
+Filter chain halted as :validate_sign_up_params rendered or redirected
+Completed 422 Unprocessable Entity in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-25 10:20:46 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"avdsdv", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"asdfadad", "tel"=>"vare3"}, "registration"=>{"user"=>{"email"=>"avdsdv", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"asdfadad", "tel"=>"vare3"}}}
+Unpermitted parameters: :user, :registration
+Filter chain halted as :validate_sign_up_params rendered or redirected
+Completed 422 Unprocessable Entity in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-25 10:20:53 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"avdsdv@f4", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"asdfadad", "tel"=>"vare3"}, "registration"=>{"user"=>{"email"=>"avdsdv@f4", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"asdfadad", "tel"=>"vare3"}}}
+Unpermitted parameters: :user, :registration
+Filter chain halted as :validate_sign_up_params rendered or redirected
+Completed 422 Unprocessable Entity in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-25 10:35:11 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"fbart", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"adfvf", "tel"=>"sht"}, "registration"=>{"user"=>{"email"=>"fbart", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"adfvf", "tel"=>"sht"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "fbart"], ["LIMIT", 1]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "fbart"]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 97ms (Views: 0.6ms | ActiveRecord: 3.6ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1734540662001077595)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(1734540662001077595)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/auth" for 172.27.0.1 at 2018-08-25 10:37:20 +0000
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"grhs", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"avjfja", "tel"=>"agty"}, "registration"=>{"user"=>{"email"=>"grhs", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"avjfja", "tel"=>"agty"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "grhs"], ["LIMIT", 1]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "grhs"]]
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 553ms (Views: 0.8ms | ActiveRecord: 5.4ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-25 10:39:58 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"sny56", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"sbfdg", "tel"=>"shtjs"}, "registration"=>{"user"=>{"email"=>"sny56", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"sbfdg", "tel"=>"shtjs"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "sny56"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "sny56"]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 79ms (Views: 0.4ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-25 10:46:45 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"g5w", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"fdgtr", "tel"=>"nsgjt"}, "registration"=>{"user"=>{"email"=>"g5w", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"fdgtr", "tel"=>"nsgjt"}}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "g5w"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "g5w"]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 66ms (Views: 0.3ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-26 06:29:54 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"56423", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"sadfg5", "tel"=>"54y7"}, "registration"=>{"user"=>{"email"=>"56423", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"sadfg5", "tel"=>"54y7"}}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "56423"], ["LIMIT", 1]]
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "56423"]]
+  [1m[35m (0.7ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 71ms (Views: 0.5ms | ActiveRecord: 2.3ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-26 06:36:22 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"56423", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"sadfg5", "tel"=>"54y7"}, "registration"=>{"user"=>{"email"=>"56423", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"sadfg5", "tel"=>"54y7"}}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "56423"], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "56423"]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 102ms (Views: 0.4ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-26 06:37:01 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"gasfh", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"sasgdf", "tel"=>"yrtew"}, "registration"=>{"user"=>{"email"=>"gasfh", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"sasgdf", "tel"=>"yrtew"}}}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "gasfh"], ["LIMIT", 1]]
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "gasfh"]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 79ms (Views: 0.6ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-26 06:37:49 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"g5eh56", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"bsadrt", "tel"=>"b5467"}, "registration"=>{"user"=>{"email"=>"g5eh56", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"bsadrt", "tel"=>"b5467"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (1.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "g5eh56"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "g5eh56"]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 78ms (Views: 0.4ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-26 08:56:42 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"rweqy", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"fasdtr", "tel"=>"h45we"}, "registration"=>{"user"=>{"email"=>"rweqy", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"fasdtr", "tel"=>"h45we"}}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "rweqy"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "rweqy"]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 68ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-26 09:45:38 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"areta", "password"=>"[FILTERED]", "session"=>{"email"=>"areta", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'areta' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 401 Unauthorized in 4ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 07:17:27 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"grset5", "password"=>"[FILTERED]", "session"=>{"email"=>"grset5", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'grset5' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 401 Unauthorized in 4ms (Views: 0.4ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 08:30:51 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"fas4r", "password"=>"[FILTERED]", "session"=>{"email"=>"fas4r", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'fas4r' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 401 Unauthorized in 5ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 08:32:32 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"anko@example", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"anko", "tel"=>"012345"}, "registration"=>{"user"=>{"email"=>"anko@example", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"anko", "tel"=>"012345"}}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "anko@example"], ["LIMIT", 1]]
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "anko@example"]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 68ms (Views: 0.3ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 08:32:54 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"anko@example", "password"=>"[FILTERED]", "session"=>{"email"=>"anko@example", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'anko@example' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 401 Unauthorized in 12ms (Views: 0.4ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 08:33:40 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"", "password"=>"[FILTERED]", "session"=>{"email"=>"", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = '' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 401 Unauthorized in 4ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 08:33:54 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"anko@example", "password"=>"[FILTERED]", "session"=>{"email"=>"anko@example", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'anko@example' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 401 Unauthorized in 6ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 08:37:04 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"anko@example", "password"=>"[FILTERED]", "session"=>{"email"=>"anko@example", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'anko@example' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 401 Unauthorized in 3ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 08:42:30 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"anko@example", "password"=>"[FILTERED]", "session"=>{"email"=>"anko@example", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'anko@example' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 401 Unauthorized in 6ms (Views: 0.4ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 08:42:51 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"anko@example", "password"=>"[FILTERED]", "session"=>{"email"=>"anko@example", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'anko@example' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 401 Unauthorized in 5ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 08:43:37 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"anko@example", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"anko", "tel"=>"012345"}, "registration"=>{"user"=>{"email"=>"anko@example", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"anko", "tel"=>"012345"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "anko@example"], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "anko@example"]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 93ms (Views: 0.5ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 08:44:00 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"anko@example", "password"=>"[FILTERED]", "session"=>{"email"=>"anko@example", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'anko@example' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 401 Unauthorized in 4ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 08:44:06 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"vraea", "password"=>"[FILTERED]", "session"=>{"email"=>"vraea", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'vraea' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 401 Unauthorized in 5ms (Views: 0.4ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 08:44:12 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"vraea@", "password"=>"[FILTERED]", "session"=>{"email"=>"vraea@", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'vraea@' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 401 Unauthorized in 6ms (Views: 0.4ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 08:44:19 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"vraea@adsf", "password"=>"[FILTERED]", "session"=>{"email"=>"vraea@adsf", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'vraea@adsf' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 401 Unauthorized in 13ms (Views: 0.7ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 08:46:45 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"vra", "password"=>"[FILTERED]", "session"=>{"email"=>"vra", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'vra' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 401 Unauthorized in 7ms (Views: 0.4ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 08:49:04 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"anko@example", "password"=>"[FILTERED]", "session"=>{"email"=>"anko@example", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'anko@example' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 401 Unauthorized in 3ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 08:54:12 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"anko@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"anko", "tel"=>"012345"}, "registration"=>{"user"=>{"email"=>"anko@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"anko", "tel"=>"012345"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "anko@example.com"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "anko@example.com"]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("uid", "encrypted_password", "name", "email", "tel", "tokens", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["uid", "anko@example.com"], ["encrypted_password", "$2a$10$7jg3wXpjRc4DuRR.eY1So.WsFP0cIjaSZsLeGfygzFh0YeH8GlsvS"], ["name", "anko"], ["email", "anko@example.com"], ["tel", "012345"], ["tokens", "{}"], ["created_at", "2018-08-28 08:54:12.640157"], ["updated_at", "2018-08-28 08:54:12.640157"]]
+  [1m[35m (3.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"eJEJPF9KmWu7zkVV7JOwxw\":{\"token\":\"$2a$10$AaQ7nU66UZ66hcXoBCe2iu8MPldf9mgoSO8hgurmOMHMLIzWTsel.\",\"expiry\":1538124852}}"], ["updated_at", "2018-08-28 08:54:12.707174"], ["id", 3]]
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 179ms (Views: 0.5ms | ActiveRecord: 9.4ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 08:54:32 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 12ms (Views: 0.6ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 08:54:37 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"k"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"k"}}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.7ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 10ms (Views: 0.5ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 08:54:57 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"hu"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"hu"}}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (1.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 12ms (Views: 0.6ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 08:55:08 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"43", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"f", "tel"=>"wgt"}, "registration"=>{"user"=>{"email"=>"43", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"f", "tel"=>"wgt"}}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "43"], ["LIMIT", 1]]
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "43"]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 67ms (Views: 0.3ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:02:15 +0000
+Processing by Auth::RegistrationsController#create as HTML
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/auth/registrations_controller.rb:4:in `sign_up_params'
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:03:30 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"anko"=>nil}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: user):
+  
+app/controllers/auth/registrations_controller.rb:4:in `sign_up_params'
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:05:16 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 25ms (Views: 0.8ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:07:08 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"anko@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"anko", "tel"=>"012345"}, "registration"=>{"user"=>{"email"=>"anko@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"anko", "tel"=>"012345"}}}
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "anko@example.com"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "anko@example.com"]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 79ms (Views: 0.3ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:09:17 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 6ms (Views: 0.4ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:09:18 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 6ms (Views: 0.4ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:09:19 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 12ms (Views: 0.5ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:09:20 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 9ms (Views: 0.4ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:09:21 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 10ms (Views: 0.5ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:09:22 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 10ms (Views: 0.4ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:09:23 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 18ms (Views: 1.0ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:09:25 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 10ms (Views: 0.4ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:09:26 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 9ms (Views: 0.4ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:09:28 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 8ms (Views: 0.4ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:09:29 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 8ms (Views: 0.4ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:09:36 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"hthz", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"rhad", "tel"=>"zngd"}, "registration"=>{"user"=>{"email"=>"hthz", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"rhad", "tel"=>"zngd"}}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "hthz"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "hthz"]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 78ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:09:52 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 9ms (Views: 0.5ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:09:53 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 7ms (Views: 0.4ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:09:56 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 8ms (Views: 0.4ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:09:57 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 11ms (Views: 0.5ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:09:58 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 10ms (Views: 0.4ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:11:18 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 9ms (Views: 0.4ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:11:19 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 7ms (Views: 0.4ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:11:20 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.8ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 21ms (Views: 1.3ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:11:21 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 8ms (Views: 0.7ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:11:23 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 8ms (Views: 0.4ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:11:24 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 9ms (Views: 0.5ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:11:26 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 8ms (Views: 0.4ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:12:04 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (2.7ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 17ms (Views: 0.6ms | ActiveRecord: 4.2ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:12:05 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 9ms (Views: 0.4ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:12:38 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 6ms (Views: 0.4ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:12:39 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 10ms (Views: 0.5ms | ActiveRecord: 2.7ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:12:40 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 9ms (Views: 0.5ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:12:41 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 6ms (Views: 0.4ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:12:42 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 9ms (Views: 0.5ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:12:43 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 11ms (Views: 0.5ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:12:44 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 9ms (Views: 0.4ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:13:03 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 9ms (Views: 0.6ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:16:08 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 8ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:16:09 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 11ms (Views: 0.6ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:16:27 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 6ms (Views: 0.4ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:16:29 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 5ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:16:31 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 8ms (Views: 0.5ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:16:32 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 8ms (Views: 0.5ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:18:10 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 11ms (Views: 0.5ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:18:38 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 6ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:18:47 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 8ms (Views: 0.4ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:18:49 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 11ms (Views: 0.6ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:18:57 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 15ms (Views: 1.0ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:21:22 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 6ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:21:35 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", ""]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 8ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:34:15 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"anko@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"anko", "tel"=>"012345"}, "registration"=>{"user"=>{"email"=>"anko@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"anko", "tel"=>"012345"}}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "anko@example.com"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "anko@example.com"]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 65ms (Views: 0.2ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 09:34:35 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"anko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"anko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'anko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"eJEJPF9KmWu7zkVV7JOwxw\":{\"token\":\"$2a$10$AaQ7nU66UZ66hcXoBCe2iu8MPldf9mgoSO8hgurmOMHMLIzWTsel.\",\"expiry\":1538124852},\"9uwPmu-lxNrobki5IeEmBg\":{\"token\":\"$2a$10$TpSQIPNmVlS/FQyjIFLJ7ediznPMaNibtmiCrstYFm9qIr7yBoL5y\",\"expiry\":1538127275}}"], ["updated_at", "2018-08-28 09:34:35.924692"], ["id", 3]]
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "current_sign_in_ip" = $4, "last_sign_in_ip" = $5, "updated_at" = $6 WHERE "users"."id" = $7[0m  [["sign_in_count", 1], ["current_sign_in_at", "2018-08-28 09:34:35.933483"], ["last_sign_in_at", "2018-08-28 09:34:35.933483"], ["current_sign_in_ip", "172.27.0.1"], ["last_sign_in_ip", "172.27.0.1"], ["updated_at", "2018-08-28 09:34:35.934138"], ["id", 3]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 153ms (Views: 0.2ms | ActiveRecord: 10.9ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 09:38:37 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"anko@example", "password"=>"[FILTERED]", "session"=>{"email"=>"anko@example", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'anko@example' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 401 Unauthorized in 10ms (Views: 0.7ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 09:38:43 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"anko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"anko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'anko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"eJEJPF9KmWu7zkVV7JOwxw\":{\"token\":\"$2a$10$AaQ7nU66UZ66hcXoBCe2iu8MPldf9mgoSO8hgurmOMHMLIzWTsel.\",\"expiry\":1538124852},\"9uwPmu-lxNrobki5IeEmBg\":{\"token\":\"$2a$10$TpSQIPNmVlS/FQyjIFLJ7ediznPMaNibtmiCrstYFm9qIr7yBoL5y\",\"expiry\":1538127275},\"MST9DZcVnI0Wn9j2D-QJRg\":{\"token\":\"$2a$10$0vP./csLS18MwYu6Km61T.hXwPi2qSGyYunk9V8seeZoXz1TSIZ2.\",\"expiry\":1538127523}}"], ["updated_at", "2018-08-28 09:38:43.781914"], ["id", 3]]
+  [1m[35m (7.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["sign_in_count", 2], ["current_sign_in_at", "2018-08-28 09:38:43.791302"], ["updated_at", "2018-08-28 09:38:43.793458"], ["id", 3]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 162ms (Views: 0.3ms | ActiveRecord: 12.0ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:48:50 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"anko@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"anko", "tel"=>"012345"}, "registration"=>{"user"=>{"email"=>"anko@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"anko", "tel"=>"012345"}}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "anko@example.com"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "anko@example.com"]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 74ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:49:07 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"anko@example", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"anko", "tel"=>"012345"}, "registration"=>{"user"=>{"email"=>"anko@example", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"anko", "tel"=>"012345"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "anko@example"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "anko@example"]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 84ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:49:18 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"anko@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"anko", "tel"=>"012345"}, "registration"=>{"user"=>{"email"=>"anko@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"anko", "tel"=>"012345"}}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "anko@example.com"], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "anko@example.com"]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 90ms (Views: 0.2ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 09:50:33 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"tsubuanko@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"tsubuanko", "tel"=>"00000000"}, "registration"=>{"user"=>{"email"=>"tsubuanko@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"tsubuanko", "tel"=>"00000000"}}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tsubuanko@example.com"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "tsubuanko@example.com"]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("uid", "encrypted_password", "name", "email", "tel", "tokens", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["uid", "tsubuanko@example.com"], ["encrypted_password", "$2a$10$mwnfWq42SJWTZndhu.CKxeeLIirZPFW.Ow5SSTyljF2thkz3zSLDa"], ["name", "tsubuanko"], ["email", "tsubuanko@example.com"], ["tel", "00000000"], ["tokens", "{}"], ["created_at", "2018-08-28 09:50:33.422846"], ["updated_at", "2018-08-28 09:50:33.422846"]]
+  [1m[35m (7.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"dJiTyofN2Ddp_RtL3qyVIw\":{\"token\":\"$2a$10$JxNUC27YjRJJOe3XpmagAOSRzWDxmaDTvPh/E10Aub6Uw6EK/lEve\",\"expiry\":1538128233}}"], ["updated_at", "2018-08-28 09:50:33.485503"], ["id", 4]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 132ms (Views: 0.2ms | ActiveRecord: 10.0ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 09:50:51 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"tsubuanko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"tsubuanko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'tsubuanko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"dJiTyofN2Ddp_RtL3qyVIw\":{\"token\":\"$2a$10$JxNUC27YjRJJOe3XpmagAOSRzWDxmaDTvPh/E10Aub6Uw6EK/lEve\",\"expiry\":1538128233},\"BR-_Uen3ZY4recjlPvGhCw\":{\"token\":\"$2a$10$VEy7tSy2nbJklmHgz64PSux7gekFfhOr.rJtsr8Cu6lOqokCpExta\",\"expiry\":1538128252}}"], ["updated_at", "2018-08-28 09:50:52.092383"], ["id", 4]]
+  [1m[35m (6.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "current_sign_in_ip" = $4, "last_sign_in_ip" = $5, "updated_at" = $6 WHERE "users"."id" = $7[0m  [["sign_in_count", 1], ["current_sign_in_at", "2018-08-28 09:50:52.100877"], ["last_sign_in_at", "2018-08-28 09:50:52.100877"], ["current_sign_in_ip", "172.27.0.1"], ["last_sign_in_ip", "172.27.0.1"], ["updated_at", "2018-08-28 09:50:52.101465"], ["id", 4]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 142ms (Views: 0.2ms | ActiveRecord: 9.9ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 10:01:29 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"tsubuanko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"tsubuanko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'tsubuanko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"dJiTyofN2Ddp_RtL3qyVIw\":{\"token\":\"$2a$10$JxNUC27YjRJJOe3XpmagAOSRzWDxmaDTvPh/E10Aub6Uw6EK/lEve\",\"expiry\":1538128233},\"BR-_Uen3ZY4recjlPvGhCw\":{\"token\":\"$2a$10$VEy7tSy2nbJklmHgz64PSux7gekFfhOr.rJtsr8Cu6lOqokCpExta\",\"expiry\":1538128252},\"g_zbtULoB0cZyeTA9TMMdA\":{\"token\":\"$2a$10$UzMy4i7e4lP50ZhEi.iNguhvbK5TQx3v2bu3TiiAzBsSJB5D5a.fa\",\"expiry\":1538128889}}"], ["updated_at", "2018-08-28 10:01:29.178628"], ["id", 4]]
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["sign_in_count", 2], ["current_sign_in_at", "2018-08-28 10:01:29.187417"], ["updated_at", "2018-08-28 10:01:29.188122"], ["id", 4]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 140ms (Views: 0.2ms | ActiveRecord: 10.5ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 10:01:42 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"tsubuanko@example", "password"=>"[FILTERED]", "session"=>{"email"=>"tsubuanko@example", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'tsubuanko@example' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Completed 401 Unauthorized in 5ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 10:01:46 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"tsubuanko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"tsubuanko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'tsubuanko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"dJiTyofN2Ddp_RtL3qyVIw\":{\"token\":\"$2a$10$JxNUC27YjRJJOe3XpmagAOSRzWDxmaDTvPh/E10Aub6Uw6EK/lEve\",\"expiry\":1538128233},\"BR-_Uen3ZY4recjlPvGhCw\":{\"token\":\"$2a$10$VEy7tSy2nbJklmHgz64PSux7gekFfhOr.rJtsr8Cu6lOqokCpExta\",\"expiry\":1538128252},\"g_zbtULoB0cZyeTA9TMMdA\":{\"token\":\"$2a$10$UzMy4i7e4lP50ZhEi.iNguhvbK5TQx3v2bu3TiiAzBsSJB5D5a.fa\",\"expiry\":1538128889},\"EZuYM_yk-KVcol-ydXMCIA\":{\"token\":\"$2a$10$ULZ7jGX7l2pL5d7SctdHyeuYFQNPDgZzF1lBEZqVpQkI.tSVm5D26\",\"expiry\":1538128907}}"], ["updated_at", "2018-08-28 10:01:47.098243"], ["id", 4]]
+  [1m[35m (7.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["sign_in_count", 3], ["current_sign_in_at", "2018-08-28 10:01:47.107848"], ["last_sign_in_at", "2018-08-28 10:01:29.187417"], ["updated_at", "2018-08-28 10:01:47.109350"], ["id", 4]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 151ms (Views: 0.3ms | ActiveRecord: 12.5ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 10:03:28 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"anko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"anko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'anko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+Completed 401 Unauthorized in 64ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 10:04:09 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"tsubuanko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"tsubuanko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'tsubuanko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"dJiTyofN2Ddp_RtL3qyVIw\":{\"token\":\"$2a$10$JxNUC27YjRJJOe3XpmagAOSRzWDxmaDTvPh/E10Aub6Uw6EK/lEve\",\"expiry\":1538128233},\"BR-_Uen3ZY4recjlPvGhCw\":{\"token\":\"$2a$10$VEy7tSy2nbJklmHgz64PSux7gekFfhOr.rJtsr8Cu6lOqokCpExta\",\"expiry\":1538128252},\"g_zbtULoB0cZyeTA9TMMdA\":{\"token\":\"$2a$10$UzMy4i7e4lP50ZhEi.iNguhvbK5TQx3v2bu3TiiAzBsSJB5D5a.fa\",\"expiry\":1538128889},\"EZuYM_yk-KVcol-ydXMCIA\":{\"token\":\"$2a$10$ULZ7jGX7l2pL5d7SctdHyeuYFQNPDgZzF1lBEZqVpQkI.tSVm5D26\",\"expiry\":1538128907},\"7dE3F3OJgl6QzdGwljWQLA\":{\"token\":\"$2a$10$r82ELLR3lsMRNZJehxTxd.w0gaVs7i3IR4HW3H680VHPrrIvTBW1y\",\"expiry\":1538129049}}"], ["updated_at", "2018-08-28 10:04:09.225102"], ["id", 4]]
+  [1m[35m (6.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["sign_in_count", 4], ["current_sign_in_at", "2018-08-28 10:04:09.233945"], ["last_sign_in_at", "2018-08-28 10:01:47.107848"], ["updated_at", "2018-08-28 10:04:09.234556"], ["id", 4]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 166ms (Views: 0.2ms | ActiveRecord: 11.2ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 10:12:36 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"tsubuanko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"tsubuanko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'tsubuanko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"dJiTyofN2Ddp_RtL3qyVIw\":{\"token\":\"$2a$10$JxNUC27YjRJJOe3XpmagAOSRzWDxmaDTvPh/E10Aub6Uw6EK/lEve\",\"expiry\":1538128233},\"BR-_Uen3ZY4recjlPvGhCw\":{\"token\":\"$2a$10$VEy7tSy2nbJklmHgz64PSux7gekFfhOr.rJtsr8Cu6lOqokCpExta\",\"expiry\":1538128252},\"g_zbtULoB0cZyeTA9TMMdA\":{\"token\":\"$2a$10$UzMy4i7e4lP50ZhEi.iNguhvbK5TQx3v2bu3TiiAzBsSJB5D5a.fa\",\"expiry\":1538128889},\"EZuYM_yk-KVcol-ydXMCIA\":{\"token\":\"$2a$10$ULZ7jGX7l2pL5d7SctdHyeuYFQNPDgZzF1lBEZqVpQkI.tSVm5D26\",\"expiry\":1538128907},\"7dE3F3OJgl6QzdGwljWQLA\":{\"token\":\"$2a$10$r82ELLR3lsMRNZJehxTxd.w0gaVs7i3IR4HW3H680VHPrrIvTBW1y\",\"expiry\":1538129049},\"FatBlCx-sp2EhWqPiidz3g\":{\"token\":\"$2a$10$ZbhT0gTYDX8Wy2JfA3/4XeOaEW7ReUwlk4sUwuCmz6ormG53LXLTW\",\"expiry\":1538129556}}"], ["updated_at", "2018-08-28 10:12:36.249855"], ["id", 4]]
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["sign_in_count", 5], ["current_sign_in_at", "2018-08-28 10:12:36.259195"], ["last_sign_in_at", "2018-08-28 10:04:09.233945"], ["updated_at", "2018-08-28 10:12:36.260236"], ["id", 4]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 134ms (Views: 0.2ms | ActiveRecord: 10.2ms)
+
+
+Started POST "/auth" for 172.27.0.1 at 2018-08-28 10:28:10 +0000
+Processing by Auth::RegistrationsController#create as HTML
+  Parameters: {"user"=>{"email"=>"koshianko@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"koshianko", "tel"=>"11111111"}, "registration"=>{"user"=>{"email"=>"koshianko@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "name"=>"koshianko", "tel"=>"11111111"}}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "koshianko@example.com"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE "users"."provider" = $1 AND "users"."email" = $2[0m  [["provider", "email"], ["email", "koshianko@example.com"]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("uid", "encrypted_password", "name", "email", "tel", "tokens", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["uid", "koshianko@example.com"], ["encrypted_password", "$2a$10$t9Iq4oOgZIm7WAFp6gPyTOn0XRjpvODWOdzgiQwRjSB7PZTLLa7Am"], ["name", "koshianko"], ["email", "koshianko@example.com"], ["tel", "11111111"], ["tokens", "{}"], ["created_at", "2018-08-28 10:28:10.650335"], ["updated_at", "2018-08-28 10:28:10.650335"]]
+  [1m[35m (7.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"q4BDrbazH_M5rbmOHLr2Hg\":{\"token\":\"$2a$10$D.oBcnDJEO2LFTXtcjTlDuwgqXvbh9Gb6XdScsivqDEy9EBYAhLQq\",\"expiry\":1538130490}}"], ["updated_at", "2018-08-28 10:28:10.731413"], ["id", 5]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 148ms (Views: 0.3ms | ActiveRecord: 10.2ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 10:30:17 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"koshianko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"koshianko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'koshianko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"q4BDrbazH_M5rbmOHLr2Hg\":{\"token\":\"$2a$10$D.oBcnDJEO2LFTXtcjTlDuwgqXvbh9Gb6XdScsivqDEy9EBYAhLQq\",\"expiry\":1538130490},\"lk8WP_nu2rw8hlktSaamKA\":{\"token\":\"$2a$10$kdKcGR.ym7KQuPGD7DL3kuB2ldgArARcvW5iJKOZ7vdrsAsOoDEv2\",\"expiry\":1538130618}}"], ["updated_at", "2018-08-28 10:30:18.001755"], ["id", 5]]
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "current_sign_in_ip" = $4, "last_sign_in_ip" = $5, "updated_at" = $6 WHERE "users"."id" = $7[0m  [["sign_in_count", 1], ["current_sign_in_at", "2018-08-28 10:30:18.006141"], ["last_sign_in_at", "2018-08-28 10:30:18.006141"], ["current_sign_in_ip", "172.27.0.1"], ["last_sign_in_ip", "172.27.0.1"], ["updated_at", "2018-08-28 10:30:18.006694"], ["id", 5]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 127ms (Views: 0.2ms | ActiveRecord: 5.5ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 10:32:25 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"koshianko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"koshianko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'koshianko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"q4BDrbazH_M5rbmOHLr2Hg\":{\"token\":\"$2a$10$D.oBcnDJEO2LFTXtcjTlDuwgqXvbh9Gb6XdScsivqDEy9EBYAhLQq\",\"expiry\":1538130490},\"lk8WP_nu2rw8hlktSaamKA\":{\"token\":\"$2a$10$kdKcGR.ym7KQuPGD7DL3kuB2ldgArARcvW5iJKOZ7vdrsAsOoDEv2\",\"expiry\":1538130618},\"AVj2QotZUh4W60n2oWuldQ\":{\"token\":\"$2a$10$O05c.iRSfmQz8fYX/gkbYOq89vpctR0hOoUVz9I5Ti96XSzARLcAW\",\"expiry\":1538130745}}"], ["updated_at", "2018-08-28 10:32:25.853854"], ["id", 5]]
+  [1m[35m (7.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["sign_in_count", 2], ["current_sign_in_at", "2018-08-28 10:32:25.863775"], ["updated_at", "2018-08-28 10:32:25.865427"], ["id", 5]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 150ms (Views: 0.5ms | ActiveRecord: 13.1ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 10:32:50 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"koshianko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"koshianko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'koshianko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"q4BDrbazH_M5rbmOHLr2Hg\":{\"token\":\"$2a$10$D.oBcnDJEO2LFTXtcjTlDuwgqXvbh9Gb6XdScsivqDEy9EBYAhLQq\",\"expiry\":1538130490},\"lk8WP_nu2rw8hlktSaamKA\":{\"token\":\"$2a$10$kdKcGR.ym7KQuPGD7DL3kuB2ldgArARcvW5iJKOZ7vdrsAsOoDEv2\",\"expiry\":1538130618},\"AVj2QotZUh4W60n2oWuldQ\":{\"token\":\"$2a$10$O05c.iRSfmQz8fYX/gkbYOq89vpctR0hOoUVz9I5Ti96XSzARLcAW\",\"expiry\":1538130745},\"u6bYvMamw0kQlh6hYrPfPA\":{\"token\":\"$2a$10$Xb0INwBOrDQS4kf5o/sSR.RMQIysduuejcef.yyIGMuNQ1baSH1k6\",\"expiry\":1538130770}}"], ["updated_at", "2018-08-28 10:32:50.456493"], ["id", 5]]
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["sign_in_count", 3], ["current_sign_in_at", "2018-08-28 10:32:50.466000"], ["last_sign_in_at", "2018-08-28 10:32:25.863775"], ["updated_at", "2018-08-28 10:32:50.468100"], ["id", 5]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 148ms (Views: 0.4ms | ActiveRecord: 11.8ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 10:38:03 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"koshianko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"koshianko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'koshianko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"q4BDrbazH_M5rbmOHLr2Hg\":{\"token\":\"$2a$10$D.oBcnDJEO2LFTXtcjTlDuwgqXvbh9Gb6XdScsivqDEy9EBYAhLQq\",\"expiry\":1538130490},\"lk8WP_nu2rw8hlktSaamKA\":{\"token\":\"$2a$10$kdKcGR.ym7KQuPGD7DL3kuB2ldgArARcvW5iJKOZ7vdrsAsOoDEv2\",\"expiry\":1538130618},\"AVj2QotZUh4W60n2oWuldQ\":{\"token\":\"$2a$10$O05c.iRSfmQz8fYX/gkbYOq89vpctR0hOoUVz9I5Ti96XSzARLcAW\",\"expiry\":1538130745},\"u6bYvMamw0kQlh6hYrPfPA\":{\"token\":\"$2a$10$Xb0INwBOrDQS4kf5o/sSR.RMQIysduuejcef.yyIGMuNQ1baSH1k6\",\"expiry\":1538130770},\"Omh5Br3IBj0x7Kq3E_f3LQ\":{\"token\":\"$2a$10$UpTdZA7EmTHFIhRTiPPQm.ltT5kF3Y3HIhZ1tmqtYb7ittbe5HV9W\",\"expiry\":1538131083}}"], ["updated_at", "2018-08-28 10:38:03.393836"], ["id", 5]]
+  [1m[35m (7.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["sign_in_count", 4], ["current_sign_in_at", "2018-08-28 10:38:03.403400"], ["last_sign_in_at", "2018-08-28 10:32:50.466000"], ["updated_at", "2018-08-28 10:38:03.404068"], ["id", 5]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 157ms (Views: 0.2ms | ActiveRecord: 12.1ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 10:47:23 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"koshianko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"koshianko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'koshianko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"q4BDrbazH_M5rbmOHLr2Hg\":{\"token\":\"$2a$10$D.oBcnDJEO2LFTXtcjTlDuwgqXvbh9Gb6XdScsivqDEy9EBYAhLQq\",\"expiry\":1538130490},\"lk8WP_nu2rw8hlktSaamKA\":{\"token\":\"$2a$10$kdKcGR.ym7KQuPGD7DL3kuB2ldgArARcvW5iJKOZ7vdrsAsOoDEv2\",\"expiry\":1538130618},\"AVj2QotZUh4W60n2oWuldQ\":{\"token\":\"$2a$10$O05c.iRSfmQz8fYX/gkbYOq89vpctR0hOoUVz9I5Ti96XSzARLcAW\",\"expiry\":1538130745},\"u6bYvMamw0kQlh6hYrPfPA\":{\"token\":\"$2a$10$Xb0INwBOrDQS4kf5o/sSR.RMQIysduuejcef.yyIGMuNQ1baSH1k6\",\"expiry\":1538130770},\"Omh5Br3IBj0x7Kq3E_f3LQ\":{\"token\":\"$2a$10$UpTdZA7EmTHFIhRTiPPQm.ltT5kF3Y3HIhZ1tmqtYb7ittbe5HV9W\",\"expiry\":1538131083},\"xshqpi7JfF4bHmeWNxXDfw\":{\"token\":\"$2a$10$I3CQ6gxnLK5BT96BkHvIzObdz8S16cYLFlXyiEFqjIGF5zzSIu8Pm\",\"expiry\":1538131643}}"], ["updated_at", "2018-08-28 10:47:23.805382"], ["id", 5]]
+  [1m[35m (2.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["sign_in_count", 5], ["current_sign_in_at", "2018-08-28 10:47:23.810199"], ["last_sign_in_at", "2018-08-28 10:38:03.403400"], ["updated_at", "2018-08-28 10:47:23.810851"], ["id", 5]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 131ms (Views: 0.2ms | ActiveRecord: 6.3ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 10:50:55 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"koshianko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"koshianko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'koshianko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"q4BDrbazH_M5rbmOHLr2Hg\":{\"token\":\"$2a$10$D.oBcnDJEO2LFTXtcjTlDuwgqXvbh9Gb6XdScsivqDEy9EBYAhLQq\",\"expiry\":1538130490},\"lk8WP_nu2rw8hlktSaamKA\":{\"token\":\"$2a$10$kdKcGR.ym7KQuPGD7DL3kuB2ldgArARcvW5iJKOZ7vdrsAsOoDEv2\",\"expiry\":1538130618},\"AVj2QotZUh4W60n2oWuldQ\":{\"token\":\"$2a$10$O05c.iRSfmQz8fYX/gkbYOq89vpctR0hOoUVz9I5Ti96XSzARLcAW\",\"expiry\":1538130745},\"u6bYvMamw0kQlh6hYrPfPA\":{\"token\":\"$2a$10$Xb0INwBOrDQS4kf5o/sSR.RMQIysduuejcef.yyIGMuNQ1baSH1k6\",\"expiry\":1538130770},\"Omh5Br3IBj0x7Kq3E_f3LQ\":{\"token\":\"$2a$10$UpTdZA7EmTHFIhRTiPPQm.ltT5kF3Y3HIhZ1tmqtYb7ittbe5HV9W\",\"expiry\":1538131083},\"xshqpi7JfF4bHmeWNxXDfw\":{\"token\":\"$2a$10$I3CQ6gxnLK5BT96BkHvIzObdz8S16cYLFlXyiEFqjIGF5zzSIu8Pm\",\"expiry\":1538131643},\"Q9McAE7f3tbG_lS3ba9hUQ\":{\"token\":\"$2a$10$7/cQKN0JbKasSld/kG5QrelidtFBi4oQNh7rk/OhKp4NA5duG9KGm\",\"expiry\":1538131856}}"], ["updated_at", "2018-08-28 10:50:56.088278"], ["id", 5]]
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["sign_in_count", 6], ["current_sign_in_at", "2018-08-28 10:50:56.093288"], ["last_sign_in_at", "2018-08-28 10:47:23.810199"], ["updated_at", "2018-08-28 10:50:56.093933"], ["id", 5]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 157ms (Views: 0.2ms | ActiveRecord: 6.7ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 10:51:43 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"koshianko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"koshianko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'koshianko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"q4BDrbazH_M5rbmOHLr2Hg\":{\"token\":\"$2a$10$D.oBcnDJEO2LFTXtcjTlDuwgqXvbh9Gb6XdScsivqDEy9EBYAhLQq\",\"expiry\":1538130490},\"lk8WP_nu2rw8hlktSaamKA\":{\"token\":\"$2a$10$kdKcGR.ym7KQuPGD7DL3kuB2ldgArARcvW5iJKOZ7vdrsAsOoDEv2\",\"expiry\":1538130618},\"AVj2QotZUh4W60n2oWuldQ\":{\"token\":\"$2a$10$O05c.iRSfmQz8fYX/gkbYOq89vpctR0hOoUVz9I5Ti96XSzARLcAW\",\"expiry\":1538130745},\"u6bYvMamw0kQlh6hYrPfPA\":{\"token\":\"$2a$10$Xb0INwBOrDQS4kf5o/sSR.RMQIysduuejcef.yyIGMuNQ1baSH1k6\",\"expiry\":1538130770},\"Omh5Br3IBj0x7Kq3E_f3LQ\":{\"token\":\"$2a$10$UpTdZA7EmTHFIhRTiPPQm.ltT5kF3Y3HIhZ1tmqtYb7ittbe5HV9W\",\"expiry\":1538131083},\"xshqpi7JfF4bHmeWNxXDfw\":{\"token\":\"$2a$10$I3CQ6gxnLK5BT96BkHvIzObdz8S16cYLFlXyiEFqjIGF5zzSIu8Pm\",\"expiry\":1538131643},\"Q9McAE7f3tbG_lS3ba9hUQ\":{\"token\":\"$2a$10$7/cQKN0JbKasSld/kG5QrelidtFBi4oQNh7rk/OhKp4NA5duG9KGm\",\"expiry\":1538131856},\"Mdqxm7g6Oa9NieHHYKblsA\":{\"token\":\"$2a$10$vvg8eFgxGJQri10ky0Nl1.1u0HsP46eg21X7t/owxydwb/mFQY.TC\",\"expiry\":1538131903}}"], ["updated_at", "2018-08-28 10:51:43.840720"], ["id", 5]]
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["sign_in_count", 7], ["current_sign_in_at", "2018-08-28 10:51:43.849767"], ["last_sign_in_at", "2018-08-28 10:50:56.093288"], ["updated_at", "2018-08-28 10:51:43.850414"], ["id", 5]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 176ms (Views: 0.2ms | ActiveRecord: 10.7ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 11:00:16 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"koshianko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"koshianko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'koshianko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"q4BDrbazH_M5rbmOHLr2Hg\":{\"token\":\"$2a$10$D.oBcnDJEO2LFTXtcjTlDuwgqXvbh9Gb6XdScsivqDEy9EBYAhLQq\",\"expiry\":1538130490},\"lk8WP_nu2rw8hlktSaamKA\":{\"token\":\"$2a$10$kdKcGR.ym7KQuPGD7DL3kuB2ldgArARcvW5iJKOZ7vdrsAsOoDEv2\",\"expiry\":1538130618},\"AVj2QotZUh4W60n2oWuldQ\":{\"token\":\"$2a$10$O05c.iRSfmQz8fYX/gkbYOq89vpctR0hOoUVz9I5Ti96XSzARLcAW\",\"expiry\":1538130745},\"u6bYvMamw0kQlh6hYrPfPA\":{\"token\":\"$2a$10$Xb0INwBOrDQS4kf5o/sSR.RMQIysduuejcef.yyIGMuNQ1baSH1k6\",\"expiry\":1538130770},\"Omh5Br3IBj0x7Kq3E_f3LQ\":{\"token\":\"$2a$10$UpTdZA7EmTHFIhRTiPPQm.ltT5kF3Y3HIhZ1tmqtYb7ittbe5HV9W\",\"expiry\":1538131083},\"xshqpi7JfF4bHmeWNxXDfw\":{\"token\":\"$2a$10$I3CQ6gxnLK5BT96BkHvIzObdz8S16cYLFlXyiEFqjIGF5zzSIu8Pm\",\"expiry\":1538131643},\"Q9McAE7f3tbG_lS3ba9hUQ\":{\"token\":\"$2a$10$7/cQKN0JbKasSld/kG5QrelidtFBi4oQNh7rk/OhKp4NA5duG9KGm\",\"expiry\":1538131856},\"Mdqxm7g6Oa9NieHHYKblsA\":{\"token\":\"$2a$10$vvg8eFgxGJQri10ky0Nl1.1u0HsP46eg21X7t/owxydwb/mFQY.TC\",\"expiry\":1538131903},\"uEMdk52mXtbu3-oDCCphRw\":{\"token\":\"$2a$10$/l08KHVpDrYZh1iAekpyUuW4.tLsDtRxzo9lXBM6jV69QiP9xVYPe\",\"expiry\":1538132416}}"], ["updated_at", "2018-08-28 11:00:16.413359"], ["id", 5]]
+  [1m[35m (7.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["sign_in_count", 8], ["current_sign_in_at", "2018-08-28 11:00:16.422668"], ["last_sign_in_at", "2018-08-28 10:51:43.849767"], ["updated_at", "2018-08-28 11:00:16.423573"], ["id", 5]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 146ms (Views: 0.2ms | ActiveRecord: 11.3ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 11:01:02 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"koshianko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"koshianko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'koshianko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"q4BDrbazH_M5rbmOHLr2Hg\":{\"token\":\"$2a$10$D.oBcnDJEO2LFTXtcjTlDuwgqXvbh9Gb6XdScsivqDEy9EBYAhLQq\",\"expiry\":1538130490},\"lk8WP_nu2rw8hlktSaamKA\":{\"token\":\"$2a$10$kdKcGR.ym7KQuPGD7DL3kuB2ldgArARcvW5iJKOZ7vdrsAsOoDEv2\",\"expiry\":1538130618},\"AVj2QotZUh4W60n2oWuldQ\":{\"token\":\"$2a$10$O05c.iRSfmQz8fYX/gkbYOq89vpctR0hOoUVz9I5Ti96XSzARLcAW\",\"expiry\":1538130745},\"u6bYvMamw0kQlh6hYrPfPA\":{\"token\":\"$2a$10$Xb0INwBOrDQS4kf5o/sSR.RMQIysduuejcef.yyIGMuNQ1baSH1k6\",\"expiry\":1538130770},\"Omh5Br3IBj0x7Kq3E_f3LQ\":{\"token\":\"$2a$10$UpTdZA7EmTHFIhRTiPPQm.ltT5kF3Y3HIhZ1tmqtYb7ittbe5HV9W\",\"expiry\":1538131083},\"xshqpi7JfF4bHmeWNxXDfw\":{\"token\":\"$2a$10$I3CQ6gxnLK5BT96BkHvIzObdz8S16cYLFlXyiEFqjIGF5zzSIu8Pm\",\"expiry\":1538131643},\"Q9McAE7f3tbG_lS3ba9hUQ\":{\"token\":\"$2a$10$7/cQKN0JbKasSld/kG5QrelidtFBi4oQNh7rk/OhKp4NA5duG9KGm\",\"expiry\":1538131856},\"Mdqxm7g6Oa9NieHHYKblsA\":{\"token\":\"$2a$10$vvg8eFgxGJQri10ky0Nl1.1u0HsP46eg21X7t/owxydwb/mFQY.TC\",\"expiry\":1538131903},\"uEMdk52mXtbu3-oDCCphRw\":{\"token\":\"$2a$10$/l08KHVpDrYZh1iAekpyUuW4.tLsDtRxzo9lXBM6jV69QiP9xVYPe\",\"expiry\":1538132416},\"jPKCFxrgTmSN5YRAS4axKg\":{\"token\":\"$2a$10$wgSUQCjoJvHB/Lerfkd.xelSC7nv2BmPFn/gfIqqKTFC1yS.b2mkW\",\"expiry\":1538132463}}"], ["updated_at", "2018-08-28 11:01:03.110330"], ["id", 5]]
+  [1m[35m (2.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["sign_in_count", 9], ["current_sign_in_at", "2018-08-28 11:01:03.115136"], ["last_sign_in_at", "2018-08-28 11:00:16.422668"], ["updated_at", "2018-08-28 11:01:03.115771"], ["id", 5]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 131ms (Views: 0.2ms | ActiveRecord: 5.7ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 11:01:03 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"koshianko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"koshianko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'koshianko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"q4BDrbazH_M5rbmOHLr2Hg\":{\"token\":\"$2a$10$D.oBcnDJEO2LFTXtcjTlDuwgqXvbh9Gb6XdScsivqDEy9EBYAhLQq\",\"expiry\":1538130490},\"lk8WP_nu2rw8hlktSaamKA\":{\"token\":\"$2a$10$kdKcGR.ym7KQuPGD7DL3kuB2ldgArARcvW5iJKOZ7vdrsAsOoDEv2\",\"expiry\":1538130618},\"AVj2QotZUh4W60n2oWuldQ\":{\"token\":\"$2a$10$O05c.iRSfmQz8fYX/gkbYOq89vpctR0hOoUVz9I5Ti96XSzARLcAW\",\"expiry\":1538130745},\"u6bYvMamw0kQlh6hYrPfPA\":{\"token\":\"$2a$10$Xb0INwBOrDQS4kf5o/sSR.RMQIysduuejcef.yyIGMuNQ1baSH1k6\",\"expiry\":1538130770},\"Omh5Br3IBj0x7Kq3E_f3LQ\":{\"token\":\"$2a$10$UpTdZA7EmTHFIhRTiPPQm.ltT5kF3Y3HIhZ1tmqtYb7ittbe5HV9W\",\"expiry\":1538131083},\"xshqpi7JfF4bHmeWNxXDfw\":{\"token\":\"$2a$10$I3CQ6gxnLK5BT96BkHvIzObdz8S16cYLFlXyiEFqjIGF5zzSIu8Pm\",\"expiry\":1538131643},\"Q9McAE7f3tbG_lS3ba9hUQ\":{\"token\":\"$2a$10$7/cQKN0JbKasSld/kG5QrelidtFBi4oQNh7rk/OhKp4NA5duG9KGm\",\"expiry\":1538131856},\"Mdqxm7g6Oa9NieHHYKblsA\":{\"token\":\"$2a$10$vvg8eFgxGJQri10ky0Nl1.1u0HsP46eg21X7t/owxydwb/mFQY.TC\",\"expiry\":1538131903},\"uEMdk52mXtbu3-oDCCphRw\":{\"token\":\"$2a$10$/l08KHVpDrYZh1iAekpyUuW4.tLsDtRxzo9lXBM6jV69QiP9xVYPe\",\"expiry\":1538132416},\"jPKCFxrgTmSN5YRAS4axKg\":{\"token\":\"$2a$10$wgSUQCjoJvHB/Lerfkd.xelSC7nv2BmPFn/gfIqqKTFC1yS.b2mkW\",\"expiry\":1538132463},\"5Yi0qZouaOFUmlVGdXFAVA\":{\"token\":\"$2a$10$IuDpXiAGUyYeMc.SIZ1Mf.yfuRVqGQ.KgPxVFgSJj9YbxEB6DXEYm\",\"expiry\":1538132463}}"], ["updated_at", "2018-08-28 11:01:03.438029"], ["id", 5]]
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["sign_in_count", 10], ["current_sign_in_at", "2018-08-28 11:01:03.442997"], ["last_sign_in_at", "2018-08-28 11:01:03.115136"], ["updated_at", "2018-08-28 11:01:03.443648"], ["id", 5]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"lk8WP_nu2rw8hlktSaamKA\":{\"token\":\"$2a$10$kdKcGR.ym7KQuPGD7DL3kuB2ldgArARcvW5iJKOZ7vdrsAsOoDEv2\",\"expiry\":1538130618},\"AVj2QotZUh4W60n2oWuldQ\":{\"token\":\"$2a$10$O05c.iRSfmQz8fYX/gkbYOq89vpctR0hOoUVz9I5Ti96XSzARLcAW\",\"expiry\":1538130745},\"u6bYvMamw0kQlh6hYrPfPA\":{\"token\":\"$2a$10$Xb0INwBOrDQS4kf5o/sSR.RMQIysduuejcef.yyIGMuNQ1baSH1k6\",\"expiry\":1538130770},\"Omh5Br3IBj0x7Kq3E_f3LQ\":{\"token\":\"$2a$10$UpTdZA7EmTHFIhRTiPPQm.ltT5kF3Y3HIhZ1tmqtYb7ittbe5HV9W\",\"expiry\":1538131083},\"xshqpi7JfF4bHmeWNxXDfw\":{\"token\":\"$2a$10$I3CQ6gxnLK5BT96BkHvIzObdz8S16cYLFlXyiEFqjIGF5zzSIu8Pm\",\"expiry\":1538131643},\"Q9McAE7f3tbG_lS3ba9hUQ\":{\"token\":\"$2a$10$7/cQKN0JbKasSld/kG5QrelidtFBi4oQNh7rk/OhKp4NA5duG9KGm\",\"expiry\":1538131856},\"Mdqxm7g6Oa9NieHHYKblsA\":{\"token\":\"$2a$10$vvg8eFgxGJQri10ky0Nl1.1u0HsP46eg21X7t/owxydwb/mFQY.TC\",\"expiry\":1538131903},\"uEMdk52mXtbu3-oDCCphRw\":{\"token\":\"$2a$10$/l08KHVpDrYZh1iAekpyUuW4.tLsDtRxzo9lXBM6jV69QiP9xVYPe\",\"expiry\":1538132416},\"jPKCFxrgTmSN5YRAS4axKg\":{\"token\":\"$2a$10$wgSUQCjoJvHB/Lerfkd.xelSC7nv2BmPFn/gfIqqKTFC1yS.b2mkW\",\"expiry\":1538132463},\"5Yi0qZouaOFUmlVGdXFAVA\":{\"token\":\"$2a$10$IuDpXiAGUyYeMc.SIZ1Mf.yfuRVqGQ.KgPxVFgSJj9YbxEB6DXEYm\",\"expiry\":1538132463}}"], ["updated_at", "2018-08-28 11:01:03.452673"], ["id", 5]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 200ms (Views: 0.5ms | ActiveRecord: 9.3ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 11:04:23 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"koshianko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"koshianko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'koshianko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"lk8WP_nu2rw8hlktSaamKA\":{\"token\":\"$2a$10$kdKcGR.ym7KQuPGD7DL3kuB2ldgArARcvW5iJKOZ7vdrsAsOoDEv2\",\"expiry\":1538130618},\"AVj2QotZUh4W60n2oWuldQ\":{\"token\":\"$2a$10$O05c.iRSfmQz8fYX/gkbYOq89vpctR0hOoUVz9I5Ti96XSzARLcAW\",\"expiry\":1538130745},\"u6bYvMamw0kQlh6hYrPfPA\":{\"token\":\"$2a$10$Xb0INwBOrDQS4kf5o/sSR.RMQIysduuejcef.yyIGMuNQ1baSH1k6\",\"expiry\":1538130770},\"Omh5Br3IBj0x7Kq3E_f3LQ\":{\"token\":\"$2a$10$UpTdZA7EmTHFIhRTiPPQm.ltT5kF3Y3HIhZ1tmqtYb7ittbe5HV9W\",\"expiry\":1538131083},\"xshqpi7JfF4bHmeWNxXDfw\":{\"token\":\"$2a$10$I3CQ6gxnLK5BT96BkHvIzObdz8S16cYLFlXyiEFqjIGF5zzSIu8Pm\",\"expiry\":1538131643},\"Q9McAE7f3tbG_lS3ba9hUQ\":{\"token\":\"$2a$10$7/cQKN0JbKasSld/kG5QrelidtFBi4oQNh7rk/OhKp4NA5duG9KGm\",\"expiry\":1538131856},\"Mdqxm7g6Oa9NieHHYKblsA\":{\"token\":\"$2a$10$vvg8eFgxGJQri10ky0Nl1.1u0HsP46eg21X7t/owxydwb/mFQY.TC\",\"expiry\":1538131903},\"uEMdk52mXtbu3-oDCCphRw\":{\"token\":\"$2a$10$/l08KHVpDrYZh1iAekpyUuW4.tLsDtRxzo9lXBM6jV69QiP9xVYPe\",\"expiry\":1538132416},\"jPKCFxrgTmSN5YRAS4axKg\":{\"token\":\"$2a$10$wgSUQCjoJvHB/Lerfkd.xelSC7nv2BmPFn/gfIqqKTFC1yS.b2mkW\",\"expiry\":1538132463},\"5Yi0qZouaOFUmlVGdXFAVA\":{\"token\":\"$2a$10$IuDpXiAGUyYeMc.SIZ1Mf.yfuRVqGQ.KgPxVFgSJj9YbxEB6DXEYm\",\"expiry\":1538132463},\"tlsYKatoR9APC9eJM_KgUg\":{\"token\":\"$2a$10$CEBT7mpmw3gpJe3Oj6F42.QZjpAg4rEKDvCekgzthwMn7tW16Dt3i\",\"expiry\":1538132663}}"], ["updated_at", "2018-08-28 11:04:23.934274"], ["id", 5]]
+  [1m[35m (7.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["sign_in_count", 11], ["current_sign_in_at", "2018-08-28 11:04:23.944205"], ["last_sign_in_at", "2018-08-28 11:01:03.442997"], ["updated_at", "2018-08-28 11:04:23.945969"], ["id", 5]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"AVj2QotZUh4W60n2oWuldQ\":{\"token\":\"$2a$10$O05c.iRSfmQz8fYX/gkbYOq89vpctR0hOoUVz9I5Ti96XSzARLcAW\",\"expiry\":1538130745},\"u6bYvMamw0kQlh6hYrPfPA\":{\"token\":\"$2a$10$Xb0INwBOrDQS4kf5o/sSR.RMQIysduuejcef.yyIGMuNQ1baSH1k6\",\"expiry\":1538130770},\"Omh5Br3IBj0x7Kq3E_f3LQ\":{\"token\":\"$2a$10$UpTdZA7EmTHFIhRTiPPQm.ltT5kF3Y3HIhZ1tmqtYb7ittbe5HV9W\",\"expiry\":1538131083},\"xshqpi7JfF4bHmeWNxXDfw\":{\"token\":\"$2a$10$I3CQ6gxnLK5BT96BkHvIzObdz8S16cYLFlXyiEFqjIGF5zzSIu8Pm\",\"expiry\":1538131643},\"Q9McAE7f3tbG_lS3ba9hUQ\":{\"token\":\"$2a$10$7/cQKN0JbKasSld/kG5QrelidtFBi4oQNh7rk/OhKp4NA5duG9KGm\",\"expiry\":1538131856},\"Mdqxm7g6Oa9NieHHYKblsA\":{\"token\":\"$2a$10$vvg8eFgxGJQri10ky0Nl1.1u0HsP46eg21X7t/owxydwb/mFQY.TC\",\"expiry\":1538131903},\"uEMdk52mXtbu3-oDCCphRw\":{\"token\":\"$2a$10$/l08KHVpDrYZh1iAekpyUuW4.tLsDtRxzo9lXBM6jV69QiP9xVYPe\",\"expiry\":1538132416},\"jPKCFxrgTmSN5YRAS4axKg\":{\"token\":\"$2a$10$wgSUQCjoJvHB/Lerfkd.xelSC7nv2BmPFn/gfIqqKTFC1yS.b2mkW\",\"expiry\":1538132463},\"5Yi0qZouaOFUmlVGdXFAVA\":{\"token\":\"$2a$10$IuDpXiAGUyYeMc.SIZ1Mf.yfuRVqGQ.KgPxVFgSJj9YbxEB6DXEYm\",\"expiry\":1538132463},\"tlsYKatoR9APC9eJM_KgUg\":{\"token\":\"$2a$10$CEBT7mpmw3gpJe3Oj6F42.QZjpAg4rEKDvCekgzthwMn7tW16Dt3i\",\"expiry\":1538132663}}"], ["updated_at", "2018-08-28 11:04:23.954634"], ["id", 5]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 141ms (Views: 0.3ms | ActiveRecord: 12.5ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 11:14:57 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"koshianko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"koshianko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'koshianko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"AVj2QotZUh4W60n2oWuldQ\":{\"token\":\"$2a$10$O05c.iRSfmQz8fYX/gkbYOq89vpctR0hOoUVz9I5Ti96XSzARLcAW\",\"expiry\":1538130745},\"u6bYvMamw0kQlh6hYrPfPA\":{\"token\":\"$2a$10$Xb0INwBOrDQS4kf5o/sSR.RMQIysduuejcef.yyIGMuNQ1baSH1k6\",\"expiry\":1538130770},\"Omh5Br3IBj0x7Kq3E_f3LQ\":{\"token\":\"$2a$10$UpTdZA7EmTHFIhRTiPPQm.ltT5kF3Y3HIhZ1tmqtYb7ittbe5HV9W\",\"expiry\":1538131083},\"xshqpi7JfF4bHmeWNxXDfw\":{\"token\":\"$2a$10$I3CQ6gxnLK5BT96BkHvIzObdz8S16cYLFlXyiEFqjIGF5zzSIu8Pm\",\"expiry\":1538131643},\"Q9McAE7f3tbG_lS3ba9hUQ\":{\"token\":\"$2a$10$7/cQKN0JbKasSld/kG5QrelidtFBi4oQNh7rk/OhKp4NA5duG9KGm\",\"expiry\":1538131856},\"Mdqxm7g6Oa9NieHHYKblsA\":{\"token\":\"$2a$10$vvg8eFgxGJQri10ky0Nl1.1u0HsP46eg21X7t/owxydwb/mFQY.TC\",\"expiry\":1538131903},\"uEMdk52mXtbu3-oDCCphRw\":{\"token\":\"$2a$10$/l08KHVpDrYZh1iAekpyUuW4.tLsDtRxzo9lXBM6jV69QiP9xVYPe\",\"expiry\":1538132416},\"jPKCFxrgTmSN5YRAS4axKg\":{\"token\":\"$2a$10$wgSUQCjoJvHB/Lerfkd.xelSC7nv2BmPFn/gfIqqKTFC1yS.b2mkW\",\"expiry\":1538132463},\"5Yi0qZouaOFUmlVGdXFAVA\":{\"token\":\"$2a$10$IuDpXiAGUyYeMc.SIZ1Mf.yfuRVqGQ.KgPxVFgSJj9YbxEB6DXEYm\",\"expiry\":1538132463},\"tlsYKatoR9APC9eJM_KgUg\":{\"token\":\"$2a$10$CEBT7mpmw3gpJe3Oj6F42.QZjpAg4rEKDvCekgzthwMn7tW16Dt3i\",\"expiry\":1538132663},\"_5wI-v6jeN4DcXOOE52K5g\":{\"token\":\"$2a$10$dPCz3Sm.cwI9B3jHCyBGTedlXaoUG.cXcgLWqAsSMk26xYuB8WQTi\",\"expiry\":1538133307}}"], ["updated_at", "2018-08-28 11:15:07.449095"], ["id", 5]]
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["sign_in_count", 12], ["current_sign_in_at", "2018-08-28 11:15:07.454463"], ["last_sign_in_at", "2018-08-28 11:04:23.944205"], ["updated_at", "2018-08-28 11:15:07.455129"], ["id", 5]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"u6bYvMamw0kQlh6hYrPfPA\":{\"token\":\"$2a$10$Xb0INwBOrDQS4kf5o/sSR.RMQIysduuejcef.yyIGMuNQ1baSH1k6\",\"expiry\":1538130770},\"Omh5Br3IBj0x7Kq3E_f3LQ\":{\"token\":\"$2a$10$UpTdZA7EmTHFIhRTiPPQm.ltT5kF3Y3HIhZ1tmqtYb7ittbe5HV9W\",\"expiry\":1538131083},\"xshqpi7JfF4bHmeWNxXDfw\":{\"token\":\"$2a$10$I3CQ6gxnLK5BT96BkHvIzObdz8S16cYLFlXyiEFqjIGF5zzSIu8Pm\",\"expiry\":1538131643},\"Q9McAE7f3tbG_lS3ba9hUQ\":{\"token\":\"$2a$10$7/cQKN0JbKasSld/kG5QrelidtFBi4oQNh7rk/OhKp4NA5duG9KGm\",\"expiry\":1538131856},\"Mdqxm7g6Oa9NieHHYKblsA\":{\"token\":\"$2a$10$vvg8eFgxGJQri10ky0Nl1.1u0HsP46eg21X7t/owxydwb/mFQY.TC\",\"expiry\":1538131903},\"uEMdk52mXtbu3-oDCCphRw\":{\"token\":\"$2a$10$/l08KHVpDrYZh1iAekpyUuW4.tLsDtRxzo9lXBM6jV69QiP9xVYPe\",\"expiry\":1538132416},\"jPKCFxrgTmSN5YRAS4axKg\":{\"token\":\"$2a$10$wgSUQCjoJvHB/Lerfkd.xelSC7nv2BmPFn/gfIqqKTFC1yS.b2mkW\",\"expiry\":1538132463},\"5Yi0qZouaOFUmlVGdXFAVA\":{\"token\":\"$2a$10$IuDpXiAGUyYeMc.SIZ1Mf.yfuRVqGQ.KgPxVFgSJj9YbxEB6DXEYm\",\"expiry\":1538132463},\"tlsYKatoR9APC9eJM_KgUg\":{\"token\":\"$2a$10$CEBT7mpmw3gpJe3Oj6F42.QZjpAg4rEKDvCekgzthwMn7tW16Dt3i\",\"expiry\":1538132663},\"_5wI-v6jeN4DcXOOE52K5g\":{\"token\":\"$2a$10$dPCz3Sm.cwI9B3jHCyBGTedlXaoUG.cXcgLWqAsSMk26xYuB8WQTi\",\"expiry\":1538133307}}"], ["updated_at", "2018-08-28 11:15:07.460017"], ["id", 5]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 136ms (Views: 0.2ms | ActiveRecord: 9.0ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 11:15:38 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"koshianko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"koshianko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'koshianko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"u6bYvMamw0kQlh6hYrPfPA\":{\"token\":\"$2a$10$Xb0INwBOrDQS4kf5o/sSR.RMQIysduuejcef.yyIGMuNQ1baSH1k6\",\"expiry\":1538130770},\"Omh5Br3IBj0x7Kq3E_f3LQ\":{\"token\":\"$2a$10$UpTdZA7EmTHFIhRTiPPQm.ltT5kF3Y3HIhZ1tmqtYb7ittbe5HV9W\",\"expiry\":1538131083},\"xshqpi7JfF4bHmeWNxXDfw\":{\"token\":\"$2a$10$I3CQ6gxnLK5BT96BkHvIzObdz8S16cYLFlXyiEFqjIGF5zzSIu8Pm\",\"expiry\":1538131643},\"Q9McAE7f3tbG_lS3ba9hUQ\":{\"token\":\"$2a$10$7/cQKN0JbKasSld/kG5QrelidtFBi4oQNh7rk/OhKp4NA5duG9KGm\",\"expiry\":1538131856},\"Mdqxm7g6Oa9NieHHYKblsA\":{\"token\":\"$2a$10$vvg8eFgxGJQri10ky0Nl1.1u0HsP46eg21X7t/owxydwb/mFQY.TC\",\"expiry\":1538131903},\"uEMdk52mXtbu3-oDCCphRw\":{\"token\":\"$2a$10$/l08KHVpDrYZh1iAekpyUuW4.tLsDtRxzo9lXBM6jV69QiP9xVYPe\",\"expiry\":1538132416},\"jPKCFxrgTmSN5YRAS4axKg\":{\"token\":\"$2a$10$wgSUQCjoJvHB/Lerfkd.xelSC7nv2BmPFn/gfIqqKTFC1yS.b2mkW\",\"expiry\":1538132463},\"5Yi0qZouaOFUmlVGdXFAVA\":{\"token\":\"$2a$10$IuDpXiAGUyYeMc.SIZ1Mf.yfuRVqGQ.KgPxVFgSJj9YbxEB6DXEYm\",\"expiry\":1538132463},\"tlsYKatoR9APC9eJM_KgUg\":{\"token\":\"$2a$10$CEBT7mpmw3gpJe3Oj6F42.QZjpAg4rEKDvCekgzthwMn7tW16Dt3i\",\"expiry\":1538132663},\"_5wI-v6jeN4DcXOOE52K5g\":{\"token\":\"$2a$10$dPCz3Sm.cwI9B3jHCyBGTedlXaoUG.cXcgLWqAsSMk26xYuB8WQTi\",\"expiry\":1538133307},\"V8hzKVEUc_yAzMFCvhi2Mw\":{\"token\":\"$2a$10$5Pu5.tHdIYlPPhQsmsOrH.f4pduWOOdtVpfvLRZHFNuwgVpEeMGZu\",\"expiry\":1538133338}}"], ["updated_at", "2018-08-28 11:15:38.841012"], ["id", 5]]
+  [1m[35m (7.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["sign_in_count", 13], ["current_sign_in_at", "2018-08-28 11:15:38.851135"], ["last_sign_in_at", "2018-08-28 11:15:07.454463"], ["updated_at", "2018-08-28 11:15:38.853266"], ["id", 5]]
+  [1m[35m (4.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"Omh5Br3IBj0x7Kq3E_f3LQ\":{\"token\":\"$2a$10$UpTdZA7EmTHFIhRTiPPQm.ltT5kF3Y3HIhZ1tmqtYb7ittbe5HV9W\",\"expiry\":1538131083},\"xshqpi7JfF4bHmeWNxXDfw\":{\"token\":\"$2a$10$I3CQ6gxnLK5BT96BkHvIzObdz8S16cYLFlXyiEFqjIGF5zzSIu8Pm\",\"expiry\":1538131643},\"Q9McAE7f3tbG_lS3ba9hUQ\":{\"token\":\"$2a$10$7/cQKN0JbKasSld/kG5QrelidtFBi4oQNh7rk/OhKp4NA5duG9KGm\",\"expiry\":1538131856},\"Mdqxm7g6Oa9NieHHYKblsA\":{\"token\":\"$2a$10$vvg8eFgxGJQri10ky0Nl1.1u0HsP46eg21X7t/owxydwb/mFQY.TC\",\"expiry\":1538131903},\"uEMdk52mXtbu3-oDCCphRw\":{\"token\":\"$2a$10$/l08KHVpDrYZh1iAekpyUuW4.tLsDtRxzo9lXBM6jV69QiP9xVYPe\",\"expiry\":1538132416},\"jPKCFxrgTmSN5YRAS4axKg\":{\"token\":\"$2a$10$wgSUQCjoJvHB/Lerfkd.xelSC7nv2BmPFn/gfIqqKTFC1yS.b2mkW\",\"expiry\":1538132463},\"5Yi0qZouaOFUmlVGdXFAVA\":{\"token\":\"$2a$10$IuDpXiAGUyYeMc.SIZ1Mf.yfuRVqGQ.KgPxVFgSJj9YbxEB6DXEYm\",\"expiry\":1538132463},\"tlsYKatoR9APC9eJM_KgUg\":{\"token\":\"$2a$10$CEBT7mpmw3gpJe3Oj6F42.QZjpAg4rEKDvCekgzthwMn7tW16Dt3i\",\"expiry\":1538132663},\"_5wI-v6jeN4DcXOOE52K5g\":{\"token\":\"$2a$10$dPCz3Sm.cwI9B3jHCyBGTedlXaoUG.cXcgLWqAsSMk26xYuB8WQTi\",\"expiry\":1538133307},\"V8hzKVEUc_yAzMFCvhi2Mw\":{\"token\":\"$2a$10$5Pu5.tHdIYlPPhQsmsOrH.f4pduWOOdtVpfvLRZHFNuwgVpEeMGZu\",\"expiry\":1538133338}}"], ["updated_at", "2018-08-28 11:15:38.873157"], ["id", 5]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 161ms (Views: 0.7ms | ActiveRecord: 16.2ms)
+
+
+Started POST "/auth/sign_in" for 172.27.0.1 at 2018-08-28 11:16:57 +0000
+Processing by DeviseTokenAuth::SessionsController#create as HTML
+  Parameters: {"email"=>"tsubuanko@example.com", "password"=>"[FILTERED]", "session"=>{"email"=>"tsubuanko@example.com", "password"=>"[FILTERED]"}}
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (email = 'tsubuanko@example.com' AND provider='email') ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Unpermitted parameter: :session
+Unpermitted parameter: :session
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "tokens" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["tokens", "{\"dJiTyofN2Ddp_RtL3qyVIw\":{\"token\":\"$2a$10$JxNUC27YjRJJOe3XpmagAOSRzWDxmaDTvPh/E10Aub6Uw6EK/lEve\",\"expiry\":1538128233},\"BR-_Uen3ZY4recjlPvGhCw\":{\"token\":\"$2a$10$VEy7tSy2nbJklmHgz64PSux7gekFfhOr.rJtsr8Cu6lOqokCpExta\",\"expiry\":1538128252},\"g_zbtULoB0cZyeTA9TMMdA\":{\"token\":\"$2a$10$UzMy4i7e4lP50ZhEi.iNguhvbK5TQx3v2bu3TiiAzBsSJB5D5a.fa\",\"expiry\":1538128889},\"EZuYM_yk-KVcol-ydXMCIA\":{\"token\":\"$2a$10$ULZ7jGX7l2pL5d7SctdHyeuYFQNPDgZzF1lBEZqVpQkI.tSVm5D26\",\"expiry\":1538128907},\"7dE3F3OJgl6QzdGwljWQLA\":{\"token\":\"$2a$10$r82ELLR3lsMRNZJehxTxd.w0gaVs7i3IR4HW3H680VHPrrIvTBW1y\",\"expiry\":1538129049},\"FatBlCx-sp2EhWqPiidz3g\":{\"token\":\"$2a$10$ZbhT0gTYDX8Wy2JfA3/4XeOaEW7ReUwlk4sUwuCmz6ormG53LXLTW\",\"expiry\":1538129556},\"9Uv2lROFyLeox02tey8GLQ\":{\"token\":\"$2a$10$0E02UA6CAVC4zBjE15ecWuZbmwANA.6bx87AR3NJQu9Iy/XkIWOCq\",\"expiry\":1538133418}}"], ["updated_at", "2018-08-28 11:16:58.038214"], ["id", 4]]
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["sign_in_count", 6], ["current_sign_in_at", "2018-08-28 11:16:58.047288"], ["last_sign_in_at", "2018-08-28 10:12:36.259195"], ["updated_at", "2018-08-28 11:16:58.047964"], ["id", 4]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 131ms (Views: 0.2ms | ActiveRecord: 10.4ms)
+
+
